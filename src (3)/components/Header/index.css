@@ -1,0 +1,42 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #002855;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: white;
+  color: #002855;
+}

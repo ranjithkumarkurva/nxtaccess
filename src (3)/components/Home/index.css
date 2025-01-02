@@ -1,0 +1,95 @@
+/* Home.css */
+
+.bg-container {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8fbf9;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.instructions-card {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .instructions-card {
+    max-width: 100%;
+  }
+}
+
+.title {
+  font-size: 20px;
+  color: #002855;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.instruction-list {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.instruction-list li {
+  margin-bottom: 10px;
+}
+
+.instruction-list strong {
+  color: #002855;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #002855;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #004080;
+}
+
+.image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+}
